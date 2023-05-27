@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.cruds {
+  width: 80%;
+  margin: auto;
+}
+/* start style head */
+.head {
+  text-align: center;
+  margin: 10px 0;
+}
+.head h1 {
+  padding: 10px 0;
+}
+/* end style head */
+
+/* start style inputs */
+input {
+  width: 100%;
+  height: 25px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  margin: 5px 0;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 18px;
+  padding: 20px 15px;
+}
+input:focus {
+  background-color: #000;
+  transform: scale(1.1);
+}
+.price input {
+  width: 20%;
+}
+#total {
+  background-color: rgb(190, 23, 79);
+  padding: 2px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#total::before {
+  content: "Total:";
+}
+/* button all style */
+button {
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(190, 23, 79);
+  margin-top: 5px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: rgb(238, 53, 115);
+  color: #000;
+}
+/* end style inputs */
+/* start style outputs */
+.btnSearch {
+  display: flex;
+  justify-content: space-between;
+}
+.btnSearch button {
+  width: 49%;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+table th {
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 5px;
+}
+/* end style outputs */
